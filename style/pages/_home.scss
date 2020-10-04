@@ -1,0 +1,51 @@
+.btn-signup {
+  @include button-variant(#ff9000, transparent);
+}
+.konten-1 {
+  h2 {
+    margin-top: 50px;
+    color: #ff9000;
+    @include media-breakpoint-down(md) {
+      margin-top: 20px;
+    }
+  }
+}
+.card-info {
+  margin-top: 100px;
+  img {
+    margin-top: -50px;
+  }
+  h6 {
+    font-weight: bold;
+  }
+}
+.info {
+  @include media-breakpoint-down(md) {
+    text-align: center;
+  }
+  h1 {
+    span {
+      color: #ff9000;
+    }
+    margin-top: 50px;
+    @include media-breakpoint-down(md) {
+      margin-top: 5px;
+    }
+    font-weight: 600;
+  }
+}
+.diskusi {
+  img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    object-position: center;
+  }
+  padding-top: 30px;
+  margin-top: 50px;
+  background-color: rgb(255, 234, 214);
+  a {
+    color: #1b1b1d;
+    text-decoration: none;
+  }
+}

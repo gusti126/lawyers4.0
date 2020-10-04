@@ -1,0 +1,77 @@
+.navbar-store {
+  padding-top: 15px;
+  margin-bottom: 50px;
+
+  @include media-breakpoint-down(md) {
+    // background-color: #fff !important;
+    display: none;
+  }
+
+  .nav-item {
+    .nav-link {
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .profile-picture {
+    max-height: 45px;
+  }
+
+  .cart-badge {
+    display: inline-block;
+    min-width: 2em; /* em unit */
+    padding: 0.3em; /* em unit */
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    background: #29a867;
+    color: #fefefe;
+    margin-left: -10px;
+  }
+}
+.nav-mobile {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+  .panel-mobile {
+    // color: rgb(1, 1, 65);
+    a {
+      text-decoration: none;
+      font-size: 10px;
+      font-weight: bold;
+      .card {
+        border: none;
+        background-color: rgb(255, 251, 244);
+        :hover {
+          background-color: rgb(255, 166, 33);
+          color: rgb(21, 0, 94);
+        }
+      }
+      .panelm-1 {
+        color: rgb(255, 145, 0);
+      }
+    }
+  }
+  .navbar {
+    background-color: #ffffff;
+    a {
+      color: rgb(96, 99, 99);
+    }
+    .active {
+      color: rgb(255, 153, 0);
+    }
+    p {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
