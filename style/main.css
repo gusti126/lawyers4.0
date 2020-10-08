@@ -11064,15 +11064,65 @@ footer p {
   }
 }
 
-.konten-m .component-products {
+.page-fd .heading {
+  height: 400px;
+  background-color: #ffdc71;
+}
+
+.page-fd .heading .heading-konten {
+  margin-top: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .page-fd .heading .heading-konten {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .page-fd .heading .heading-konten img {
+    display: none;
+  }
+}
+
+.page-fd .heading .heading-konten h1 {
+  margin-top: 0;
+  color: #03136d;
+  font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .page-fd .heading .heading-konten h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.page-fd .heading .heading-konten p {
+  color: #1a1919;
+  font-weight: 400;
+}
+
+.page-fd .main {
+  margin-top: -140px;
+}
+
+.page-fd .deskripsi-forum h4 {
+  color: #03136d;
+}
+
+.page-fd .deskripsi-forum p {
+  line-height: 1.7;
+}
+
+.component-products {
   margin-bottom: 20px;
 }
 
-.konten-m .component-products:hover {
+.component-products:hover {
   text-decoration: none;
 }
 
-.konten-m .component-products .products-thumbnail {
+.component-products .products-thumbnail {
   width: 100%;
   height: 150px;
   border-radius: 8px;
@@ -11081,12 +11131,12 @@ footer p {
   z-index: 1;
 }
 
-.konten-m .component-products .products-thumbnail:hover .products-image, .konten-m .component-products .products-thumbnail:focus .products-image {
+.component-products .products-thumbnail:hover .products-image, .component-products .products-thumbnail:focus .products-image {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.konten-m .component-products .products-thumbnail .products-image {
+.component-products .products-thumbnail .products-image {
   width: 100%;
   height: 100%;
   background-color: #ddd;
@@ -11097,7 +11147,7 @@ footer p {
   transition: all 0.3s ease;
 }
 
-.konten-m .component-products .products-text {
+.component-products .products-text {
   color: #0c0d36;
   margin-top: 10px;
   font-weight: normal;
@@ -11105,20 +11155,22 @@ footer p {
 }
 
 @media (max-width: 991.98px) {
-  .konten-m .component-products .products-text {
+  .component-products .products-text {
     font-size: 12px;
+    font-weight: bold;
   }
 }
 
-.konten-m .component-products .products-price {
+.component-products .products-price {
   font-weight: 500;
   font-size: 16px;
   color: #ff7158;
 }
 
 @media (max-width: 991.98px) {
-  .konten-m .component-products .products-price {
+  .component-products .products-price {
     font-size: 12px;
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=main.css.map */
