@@ -11064,6 +11064,23 @@ footer p {
   }
 }
 
+.page-job {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.page-job hr {
+  border-top: 4px solid #ff9100;
+  width: 30%;
+  border-radius: 1px;
+  float: left;
+  margin-top: 0;
+}
+
+.page-job .card {
+  text-align: left;
+}
+
 .page-fd .heading {
   height: 400px;
   background-color: #fde8a7;
