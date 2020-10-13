@@ -11088,7 +11088,7 @@ footer p {
 
 @media (max-width: 991.98px) {
   .page-law .img-profile-law {
-    height: 90px;
+    height: 110px;
   }
 }
 
@@ -11129,6 +11129,42 @@ footer p {
 @media (max-width: 991.98px) {
   .page-law .card-body .lokasi {
     font-size: 12px;
+  }
+}
+
+.heading-profile img {
+  height: 150px;
+  width: 150px;
+  border: 6px double #fdc795;
+}
+
+.heading-profile hr {
+  width: 100px;
+  border: 1px solid #ff9c2b;
+}
+
+.heading-profile .statis-profile img {
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+@media (max-width: 991.98px) {
+  .heading-profile .statis-profile img {
+    height: 26px;
+    width: 26px;
+  }
+}
+
+.heading-profile .statis-profile p {
+  color: #61605f;
+  margin-top: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .heading-profile .statis-profile p {
+    font-size: 14px;
+    font-weight: normal;
   }
 }
 

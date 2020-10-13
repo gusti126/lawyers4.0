@@ -1,0 +1,31 @@
+.heading-profile{
+    img{
+        height: 150px;
+        width: 150px;
+        border: 6px double rgb(253, 199, 149);
+
+    }
+   hr{
+       width: 100px;
+       border: 1px solid rgb(255, 156, 43);
+   }
+   .statis-profile{
+       img{
+           border: none;
+           height: 30px;
+           width: 30px;
+           @include media-breakpoint-down(md){
+               height: 26px;
+           width: 26px;
+           }
+       }
+       p{
+           color: rgb(97, 96, 95);
+           margin-top: 5px;
+          @include media-breakpoint-down(md){
+                font-size: 14px;
+                font-weight: normal;
+           }
+       }
+   }
+}
